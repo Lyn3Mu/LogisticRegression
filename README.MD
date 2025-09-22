@@ -27,8 +27,7 @@
   导数为：
 
   $$
-  \frac{\partial J}{\partial \theta_j} = \frac{1}{m}\sum_{i=1}^m[h_\theta(x^{(i)})-y^{(i)}]x_j^{(i)
-  }+\frac{\lambda}{m}sign(\theta_j)
+  \frac{\partial J}{\partial \theta_j} = \frac{1}{m}\sum_{i=1}^m[h_\theta(x^{(i)})-y^{(i)}]x_j^{(i)}+\frac{\lambda}{m}sign(\theta_j)
   $$
 
 - L2正则化
@@ -41,7 +40,7 @@
   导数为：
 
   $$
-  \begin{aligned}\frac{\partial J}{\partial\theta_j}&=\frac{1}{m}\sum_{i=1}^m\Big(h_\theta(x^{(i)})-y^{(i)}\Big)x_j^{(i)}+\frac{\lambda}{m}\theta_j\end{aligned}
+  \frac{\partial J}{\partial\theta_j}&=\frac{1}{m}\sum_{i=1}^m\Big(h_\theta(x^{(i)})-y^{(i)}\Big)x_j^{(i)}+\frac{\lambda}{m}\theta_j
   $$
 
 ### 牛顿法
